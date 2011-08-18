@@ -4,8 +4,9 @@
  */
 jQuery(function($) {
 	// settings
-	var animationDuration   = 1000,
-		singleSlideDuration = 4000;
+	var animationDuration    = 1000,
+		singleSlideDuration  = 6000,
+		initialSlideDuration = 9000;
 
 	var $lists = $('ul.fadeshow'),
 		timer;
@@ -36,5 +37,5 @@ jQuery(function($) {
 	};
 
 	$lists.click(next);
-	timer = setTimeout(next, singleSlideDuration);
+	timer = setTimeout(next, initialSlideDuration);
 });
