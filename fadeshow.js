@@ -1,3 +1,7 @@
+/**
+ * Minimalistic slideshow which uses fading
+ * More on https://github.com/mitio/jquery-fadeshow
+ */
 jQuery(function($) {
 	// settings
 	var animationDuration   = 1000,
