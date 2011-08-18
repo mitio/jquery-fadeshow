@@ -4,13 +4,13 @@ This is a very minimal slideshow implementation which uses fading for the transi
 
 ## Usage
 
-To use this code, include `slideshow.js` and `slideshow.css` to your web page. If you use [SASS](http://sass-lang.com) and/or [Compass](http://compass-style.org/), you can use `slideshow.scss` directly.
+To use this code, include `fadeshow.js` and `fadeshow.css` to your web page. If you use [SASS](http://sass-lang.com) and/or [Compass](http://compass-style.org/), you can use `fadeshow.scss` directly.
 
-Note that the Slideshow depends on [jQuery](http://jquery.com/), so make sure you have jQuery included in your web page prior to including `slideshow.js`.
+Note that the Slideshow depends on [jQuery](http://jquery.com/), so make sure you have jQuery included in your web page prior to including `fadeshow.js`.
 
-After including the aforementioned assets, you can use the following code to embed a slideshow in your page:
+After including the aforementioned assets, you can use the following code to embed a fading slideshow in your page:
 
-	<ul class="slideshow">
+	<ul class="fadeshow">
 		<li class="active"><img src="first-image.jpg" alt="First image" /></li>
 		<li><img src="second-image.jpg" alt="Second image" /></li>
 		<li><img src="third-image.jpg" alt="Third image" /></li>
@@ -18,7 +18,7 @@ After including the aforementioned assets, you can use the following code to emb
 
 ## Bugs and feature-requests
 
-Please use the [Github issue tracker](http://github.com/mitio/jquery-slideshow/issues) for this project.
+Please use the [Github issue tracker](http://github.com/mitio/jquery-fadeshow/issues) for this project.
 
 ## Patches
 

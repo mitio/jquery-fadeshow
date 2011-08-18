@@ -3,7 +3,7 @@ jQuery(function($) {
 	var animationDuration   = 1000,
 		singleSlideDuration = 4000;
 
-	var $lists = $('ul.slideshow'),
+	var $lists = $('ul.fadeshow'),
 		timer;
 
 	var next = function () {
