@@ -1,12 +1,12 @@
-# Mini Slideshow for the jQuery library
+# Mini slideshow for the jQuery library
 
-This is a very minimal slideshow implementation which uses fading for the transitions between slides. Due to its simplicity, it has a very limited set of functionality, but feel free to extend or modify it to suit your needs.
+Fadeshow is a very minimal slideshow implementation which uses fading for the transitions between slides. Due to its simplicity, it has a very limited set of functionality, but feel free to extend or modify it to suit your needs.
 
 ## Usage
 
 To use this code, include `fadeshow.js` and `fadeshow.css` to your web page. If you use [SASS](http://sass-lang.com) and/or [Compass](http://compass-style.org/), you can use `fadeshow.scss` directly.
 
-Note that the Slideshow depends on [jQuery](http://jquery.com/), so make sure you have jQuery included in your web page prior to including `fadeshow.js`.
+Note that Fadeshow depends on [jQuery](http://jquery.com/), so make sure you have jQuery included in your web page prior to including `fadeshow.js`.
 
 After including the aforementioned assets, you can use the following code to embed a fading slideshow in your page:
 
